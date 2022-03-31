@@ -11,7 +11,7 @@ const requestHandler = (request, response) => {
     } else if (request.url == "/about") {
         response.write("<h2>About</h2>");
 
-    } else if ( for (var i = 0;;i++) {
+    } else if ( for (var i = 0;;i++)) {
         request.url == "/image/"+i;
         let content = fs.readFileSync(i+".jpg");
         response.writeHead(200, {
